@@ -18,6 +18,7 @@ import pytesseract
 #method to test if folder exists
 def folder_exists(absolute_path):
     return path.exists(absolute_path) and path.isdir(absolute_path)
+    
 def exit_program_with_error (err_message):
     logging.error(err_message)
     logging.info('exiting the program ...')
